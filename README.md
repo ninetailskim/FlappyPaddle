@@ -1,5 +1,11 @@
 # FlappyPaddle
 
+![7](img/7.gif)
+
+预览视频看这里：
+
+[第一届Flappy Paddle大赛](https://www.bilibili.com/video/BV1KV411674k)
+
 ## 训练了三个
 
 1. 两个hidden layer （modelsm_16400_95.8.ckpt）
@@ -39,6 +45,8 @@
 ![3](img/3.png)
 
 ![4](img/4.png)
+
+![6](img/6.png)
 
 ![5](img/5.png)
 
