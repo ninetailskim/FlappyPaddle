@@ -1,10 +1,8 @@
 # FlappyPaddle
 
-![7](img/7.gif)
-
 预览视频看这里：
 
-[第一届Flappy Paddle大赛](https://www.bilibili.com/video/BV1KV411674k)
+[第一届Flappy Paddle大赛](https://www.bilibili.com/video/BV1KV411674k) 从一分五十秒开始比赛
 
 ## 训练了三个
 
@@ -50,3 +48,4 @@
 
 ![5](img/5.png)
 
+![7](img/7.gif)
