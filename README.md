@@ -52,3 +52,6 @@
 
 ![5](img/5.png)
 
+
+## 许可证书
+本项目的发布受<a href="https://github.com/ninetailskim/FlappyPaddle/blob/master/LICENSE">Apache 2.0 license</a>许可认证。
