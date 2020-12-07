@@ -1,52 +1,42 @@
-# FlappyPaddle
+初次运行需要安装环境
 
-![7](img/7.gif)
+在你的python环境中
 
-预览视频看这里：
+pip install -r requirements.txt -i https://mirror.baidu.com/pypi/simple
 
-[第一届Flappy Paddle大赛](https://www.bilibili.com/video/BV1KV411674k) 从一分五十秒开始比赛
+注意parl必须是1.3.1，pygame必须是1.9.6
 
-## 训练了三个
+*原因：parl后期改了读model的接口，pygame则改了事件部分的接口*
 
-1. 两个hidden layer （modelsm_16400_95.8.ckpt）
-2. 三个hidden layer （model3_8400_1256.2.ckpt）
-3. 三个hidden layer+前两帧的obs直接concat作为输入（modelconcat_30900_157.6.ckpt）
+运行完双击run.bat则可以开始游戏
 
-## 环境
+算法控制的为红色paddle
 
-修改了flappy game的init，可以直接跑三个agent了，所以如果你想在环境中评比几个算法现在也是可行的了
-
-提供三种颜色队伍的图片
-
-以上都按照环境本来的文件夹格式提供。
+用户控制的为蓝色paddle
 
 
 
-## 所以你也可以和我一起比，修改run3Agent中添加你的model、algorithm、agent,你一定可以看懂。
+## 控制
+
+按空格键，则跳起一次
+
+按ESC键，重新开始游戏
 
 
 
-## 【BUG】：
+## 修改运行框的大小
 
-​	不知道啥情况，第一个agent操作了第二个队伍，第二个agent操作第一个队伍，还在排查中
+打开run.bat
 
-​	【20200702】不是bug，是pygame或opencv的图像通道不统一的问题，两者的RGB顺序应该不一样。
+在最后一行
+
+```
+call python pvsc.py 1640（宽） 1200（高）
+```
+
+里的两个数字改成你需要的宽、高后，再次运行
 
 
 
-## 第一届paddlepaddle杯Flappy Paddle大赛
-
-最后的比赛成绩红队143分，黑队125分，蓝队1003分
-
-![1](img/1.png)
-
-![2](img/2.png)
-
-![3](img/3.png)
-
-![4](img/4.png)
-
-![6](img/6.png)
-
-![5](img/5.png)
+由于使用opencv放大了窗口，所以需要点一下原来的pygam窗口，让它能够监听键盘事件。
 
