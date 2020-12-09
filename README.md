@@ -54,3 +54,6 @@
 
 ## 分支PeopleVSRL是支持用户操作和机器比赛的模式
 
+
+## 许可证书
+本项目的发布受<a href="https://github.com/ninetailskim/FlappyPaddle/blob/master/LICENSE">Apache 2.0 license</a>许可认证。
